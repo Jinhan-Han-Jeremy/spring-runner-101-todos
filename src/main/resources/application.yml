@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: todos
+
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
+todoapp:
+  site:
+    author: spring runner!!
+    description: what're ypur plan
+  data:
+    init: true
+  feature-toggles:
+    auth: true
+    online-users-counter: true
+
+
+logging:
+  level:
+    web: debug
+    sql: debug
+
