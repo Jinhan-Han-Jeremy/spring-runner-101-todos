@@ -1,11 +1,13 @@
 ## 1. 현재 이 코드는 어떠한 기대효과를 전달하는가?.
 
 - spring runner mastering 101에서 배웠던 api controller, config, http filter, 아키텍처적인 구현들을 배웠습니다.
+https://springrunner.dev/
 
 <br />
 
 ## 2. 이 브랜치에서 어떤 내용을 개발했는가?
 - todo application으로 일정 계획 관리 일정 csv파일로 다운로드 온라인 상태 표시 로그인 로그아웃 인증인가 구현등을 만들었습니다.
+- 스프링 mvc 활용
   
 - api 명세서
   https://app.swaggerhub.com/apis-docs/code-rain/todoapp/1.0.0-snapshot#/todos
